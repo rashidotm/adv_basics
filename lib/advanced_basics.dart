@@ -1,3 +1,4 @@
+import 'package:adv_basics/homepage.dart';
 import 'package:flutter/material.dart';
 
 class AdvancedBasics extends StatelessWidget {
@@ -10,7 +11,7 @@ class AdvancedBasics extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.purple,
       ),
-      home: MyHomePage(title: 'Advanced Basics'),
+      home: const Homepage(),
     );
   }
 }
